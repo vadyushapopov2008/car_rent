@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100%;
+}
+.wrapper {
+    width: 100%;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+ul>li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.header {
+    padding: 31px 13px 23.48px 21px;
+}
+.header__container {
+    display: flex;
+    column-gap: 82.19px;
+    align-items: center;
+}
+.header__logo {
+    width: 302.62px;
+    height: 32.52px;
+    overflow: hidden;
+}
+.logo__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.nav {}
+.nav__list {
+    display: flex;
+    justify-content: center;
+    column-gap: 35px;
+}
+.nav__item {
+
+}
+.nav__link {
+    color: black;}
+.main {}
+.rent {
+    background: url(../img/content/mersedes.png) no-repeat center/cover;
+    padding: 87px 64px 60px 83px;
+    color: #FFFFFF;
+}
+.container {
+    max-width: 1141px;
+    margin: 0 auto;
+}
+.rent__container {
+    display: flex;
+}
+.rent__column {
+    width: 50%;
+}
+.rent__title {
+    font-size: 43px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.rent__subtitle {
+    margin-top: 34px;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.rent-terms {
+    display: flex;
+    flex-direction: column;
+    row-gap: 23px;
+}
+.rent-term__item {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    height: 24px;
+}
+.rent__form {
+    margin-top: 70px;
+    display: block;
+    width: 532px;
+    height: 353px;
+    padding: 22px 24px;
+    background-color: rgba(71, 117, 36, 50%);
+    border-radius: 20px;
+}
+.rent__checkboxes {
+    display: flex;
+    column-gap: 35px;
+    row-gap: 14px;
+    flex-wrap: wrap;
+}
+#rent__check {
+    display: block;
+    width: 138px;
+    height: 20px;
+    display: flex;
+    column-gap: 9px;
+}
+
+#rent__submit {
+    width: 445px;
+    height: 46px;
+    border-radius: 20px;
+    background-color: #477524;
+    border: 1px solid #FFFFFF;
+    margin-top: 35px;
+}
+
+#rent__submit:active {
+    background-color: red;
+}
